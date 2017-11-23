@@ -677,6 +677,12 @@ RegisterTool(TArmTool, 'Arm');
 RegisterTool(TSelectingTool, 'Selecting');
 
 RegisterBrushSt(bsClear, 'clear');
+RegisterBrushSt(bsBDiagonal, 'BDiagonal');
+RegisterBrushSt(bsFDiagonal, 'FDiagonal');
+RegisterBrushSt(bsCross, 'Cross');
+RegisterBrushSt(bsDiagCross, 'Diag Cross');
+RegisterBrushSt(bsHorizontal, 'Horizontal');
+RegisterBrushSt(bsVertical, 'Vertical');
 RegisterBrushSt(bsSolid, 'Solid');
 
 end.
