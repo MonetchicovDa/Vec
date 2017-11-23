@@ -1,0 +1,91 @@
+object HotKeysSheet: THotKeysSheet
+  Left = 637
+  Height = 240
+  Top = 66
+  Width = 400
+  BorderStyle = bsSingle
+  Caption = 'Help - Hot Keys Sheet'
+  ClientHeight = 240
+  ClientWidth = 400
+  Constraints.MaxHeight = 240
+  Constraints.MaxWidth = 400
+  Constraints.MinHeight = 240
+  Constraints.MinWidth = 400
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  Position = poDesktopCenter
+  LCLVersion = '1.6.4.0'
+  object Header: TLabel
+    Left = 8
+    Height = 41
+    Top = 16
+    Width = 125
+    Caption = 'Hot Keys:'
+    Font.Height = -30
+    ParentColor = False
+    ParentFont = False
+  end
+  object CtrlZ: TLabel
+    Left = 76
+    Height = 25
+    Top = 72
+    Width = 54
+    Caption = 'Ctrl+Z'
+    Font.Height = -18
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object CtrlZT: TLabel
+    Left = 144
+    Height = 25
+    Top = 72
+    Width = 146
+    Caption = '- delete last drawn'
+    Font.Height = -18
+    ParentColor = False
+    ParentFont = False
+  end
+  object CtrlShiftE: TLabel
+    Left = 24
+    Height = 25
+    Top = 112
+    Width = 106
+    Caption = 'Ctrl+Shift+E'
+    Font.Height = -18
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object CtrlShiftET: TLabel
+    Left = 144
+    Height = 75
+    Top = 112
+    Width = 241
+    Caption = '- close the selected window'#13#10'  (when the main window is '#13#10'  selected, the program closes)'
+    Font.Height = -18
+    ParentColor = False
+    ParentFont = False
+  end
+  object CtrlShiftN: TLabel
+    Left = 20
+    Height = 25
+    Top = 200
+    Width = 110
+    Caption = 'Ctrl+Shift+N'
+    Font.Height = -18
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object CtrlShiftNT: TLabel
+    Left = 144
+    Height = 25
+    Top = 200
+    Width = 170
+    Caption = '- create a new project'
+    Font.Height = -18
+    ParentColor = False
+    ParentFont = False
+  end
+end

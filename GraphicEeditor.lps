@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="22">
+      <Unit0>
+        <Filename Value="GraphicEeditor.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="69" Y="17"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="mainunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="GraphicsEditor"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="MainUnit"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="7" Y="10"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="ufigure.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uFigure"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="67"/>
+        <CursorPos X="45" Y="72"/>
+        <UsageCount Value="184"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="utool.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTool"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="649"/>
+        <CursorPos X="35" Y="679"/>
+        <UsageCount Value="115"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="ulog.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uLog"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="18" Y="91"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="helpaboutunit.pas"/>
+        <ComponentName Value="HelpAbout"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="HelpAboutUnit"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="22"/>
+        <UsageCount Value="200"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="helphotkeys.pas"/>
+        <ComponentName Value="HotKeysSheet"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="HelpHotKeys"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="202"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="ulogik.pas"/>
+        <UnitName Value="uLogik"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="53"/>
+        <CursorPos X="22" Y="36"/>
+        <UsageCount Value="183"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="D:\Новая папка\z1.pas"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Z1"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="13" Y="7"/>
+        <UsageCount Value="24"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="C:\lazarus\fpc\3.0.2\source\rtl\inc\objpash.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="176"/>
+        <CursorPos X="23" Y="193"/>
+        <UsageCount Value="13"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="D:\Калькуль\calculu.pas"/>
+        <UnitName Value="Calculu"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="280"/>
+        <CursorPos X="24" Y="288"/>
+        <UsageCount Value="10"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="C:\lazarus\lcl\graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="676"/>
+        <CursorPos X="14" Y="696"/>
+        <UsageCount Value="18"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="C:\lazarus\lcl\include\scrollbar.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="96"/>
+        <CursorPos Y="98"/>
+        <UsageCount Value="12"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="D:\VecDraw-master\ufigures.pas"/>
+        <UnitName Value="UFigures"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="309"/>
+        <CursorPos X="23" Y="33"/>
+        <UsageCount Value="16"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="C:\lazarus\lcl\dialogs.pp"/>
+        <UnitName Value="Dialogs"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="7"/>
+        <CursorPos X="13" Y="17"/>
+        <UsageCount Value="26"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="C:\lazarus\lcl\stdctrls.pp"/>
+        <UnitName Value="StdCtrls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="469"/>
+        <CursorPos X="11" Y="497"/>
+        <UsageCount Value="20"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="C:\lazarus\fpc\3.0.2\source\rtl\objpas\classes\classesh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="586"/>
+        <CursorPos X="11" Y="603"/>
+        <UsageCount Value="20"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="C:\lazarus\fpc\3.0.2\source\packages\fcl-image\src\fpcanvas.pp"/>
+        <UnitName Value="FPCanvas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="142"/>
+        <CursorPos X="16" Y="158"/>
+        <UsageCount Value="18"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="D:\Google Диск\ДВФУ\Векторный редактор_11\mainunit.pas"/>
+        <UnitName Value="MainUnit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="164"/>
+        <UsageCount Value="9"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="D:\Google Диск\ДВФУ\Векторный редактор_10\mainunit.pas"/>
+        <UnitName Value="MainUnit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="56"/>
+        <CursorPos X="6" Y="59"/>
+        <UsageCount Value="13"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="D:\VecDraw-master — копия\uabout.pas"/>
+        <UnitName Value="UAbout"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="38" Y="12"/>
+        <UsageCount Value="10"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="lib\x86_64-win64\helpaboutunit.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit21>
+    </Units>
+    <JumpHistory Count="10" HistoryIndex="9">
+      <Position1>
+        <Filename Value="GraphicEeditor.lpr"/>
+        <Caret Line="12" Column="81"/>
+      </Position1>
+      <Position2>
+        <Filename Value="ulog.pas"/>
+        <Caret Line="8" Column="122"/>
+      </Position2>
+      <Position3>
+        <Filename Value="GraphicEeditor.lpr"/>
+        <Caret Line="24" Column="98"/>
+      </Position3>
+      <Position4>
+        <Filename Value="GraphicEeditor.lpr"/>
+        <Caret Line="10" Column="42"/>
+      </Position4>
+      <Position5>
+        <Filename Value="ufigure.pas"/>
+        <Caret Line="155" Column="25" TopLine="138"/>
+      </Position5>
+      <Position6>
+        <Filename Value="ufigure.pas"/>
+        <Caret Line="261" TopLine="239"/>
+      </Position6>
+      <Position7>
+        <Filename Value="ufigure.pas"/>
+        <Caret Line="56" Column="22" TopLine="46"/>
+      </Position7>
+      <Position8>
+        <Filename Value="ufigure.pas"/>
+        <Caret Line="72" Column="52" TopLine="57"/>
+      </Position8>
+      <Position9>
+        <Filename Value="ufigure.pas"/>
+        <Caret Line="75" Column="11" TopLine="62"/>
+      </Position9>
+      <Position10>
+        <Filename Value="ufigure.pas"/>
+        <Caret Line="72" Column="45" TopLine="56"/>
+      </Position10>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

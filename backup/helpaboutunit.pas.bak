@@ -1,0 +1,48 @@
+unit HelpAboutUnit;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls;
+
+const
+  KeyE = 69;
+
+type
+
+  { THelpAbout }
+
+  THelpAbout = class(TForm)
+    Header: TLabel;
+    Body: TLabel;
+    Year: TLabel;
+    Mail: TLabel;
+    procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
+  private
+    { private declarations }
+  public
+    { public declarations }
+  end;
+
+var
+  HelpAbout: THelpAbout;
+
+implementation
+
+{$R *.lfm}
+
+{ THelpAbout }
+
+
+
+procedure THelpAbout.FormKeyDown(Sender: TObject; var Key: Word;
+  Shift: TShiftState);
+begin
+  if ((Key = KeyE) and (ssCtrl in Shift) and (ssShift in Shift)) then
+    Close();//ctrl+Shift+E
+end;
+
+end.
+

@@ -1,0 +1,57 @@
+unit HelpHotKeys;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls;
+
+const
+  KeyE = 69;
+
+type
+
+  { THotKeysSheet }
+
+  THotKeysSheet = class(TForm)
+    Header: TLabel;
+    CtrlZ: TLabel;
+    CtrlZT: TLabel;
+    CtrlShiftE: TLabel;
+    CtrlShiftET: TLabel;
+    CtrlShiftN: TLabel;
+    CtrlShiftNT: TLabel;
+    procedure FormCreate(Sender: TObject);
+    procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
+  private
+    { private declarations }
+  public
+    { public declarations }
+  end;
+
+var
+  HotKeysSheet: THotKeysSheet;
+
+implementation
+
+{$R *.lfm}
+
+{ THotKeysSheet }
+
+
+
+procedure THotKeysSheet.FormKeyDown(Sender: TObject; var Key: Word;
+  Shift: TShiftState);
+begin
+  if ((Key = KeyE) and (ssCtrl in Shift) and (ssShift in Shift)) then
+    Close();//ctrl+Shift+E
+end;
+
+procedure THotKeysSheet.FormCreate(Sender: TObject);
+begin
+
+end;
+
+end.
+

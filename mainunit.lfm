@@ -1,0 +1,105 @@
+object GraphicsEditor: TGraphicsEditor
+  Left = 225
+  Height = 400
+  Hint = '0'
+  Top = 120
+  Width = 700
+  HorzScrollBar.Page = 215
+  HorzScrollBar.Range = 215
+  VertScrollBar.Page = 362
+  VertScrollBar.Range = 362
+  Caption = 'Graphics Editor'
+  ClientHeight = 0
+  ClientWidth = 0
+  KeyPreview = True
+  Menu = MainMenu
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  OnResize = FormResize
+  Position = poOwnerFormCenter
+  LCLVersion = '1.6.4.0'
+  object PaintBox: TPaintBox
+    Left = 110
+    Height = 336
+    Top = 0
+    Width = 79
+    Align = alClient
+    OnMouseDown = PaintBoxMouseDown
+    OnMouseMove = PaintBoxMouseMove
+    OnMouseUp = PaintBoxMouseUp
+    OnPaint = PaintBoxPaint
+  end
+  object Toolbar: TPanel
+    Left = 0
+    Height = 336
+    Top = 0
+    Width = 110
+    Align = alLeft
+    ClientHeight = 336
+    ClientWidth = 110
+    TabOrder = 0
+    object Zoom: TFloatSpinEdit
+      Left = 8
+      Height = 23
+      Top = 240
+      Width = 90
+      Increment = 1
+      MaxValue = 1000
+      MinValue = 10
+      ParentFont = False
+      TabOrder = 0
+      Value = 100
+    end
+    object ParameterTool: TPanel
+      Left = 0
+      Height = 354
+      Top = 296
+      Width = 110
+      Caption = 'ParameterTool'
+      TabOrder = 1
+    end
+  end
+  object ScrollX: TScrollBar
+    Left = 0
+    Height = 26
+    Top = 336
+    Width = 215
+    Align = alBottom
+    Max = 0
+    PageSize = 0
+    TabOrder = 1
+    OnChange = ScrollXChange
+  end
+  object ScrollY: TScrollBar
+    Left = 189
+    Height = 336
+    Top = 0
+    Width = 26
+    Align = alRight
+    Kind = sbVertical
+    Max = 0
+    PageSize = 0
+    TabOrder = 2
+    OnChange = ScrollYChange
+  end
+  object MainMenu: TMainMenu
+    object File1: TMenuItem
+      Caption = 'File'
+      object New1: TMenuItem
+        Caption = 'New'
+        OnClick = New1Click
+      end
+      object Exit1: TMenuItem
+        Caption = 'Close'
+        OnClick = Exit1Click
+      end
+    end
+    object Help: TMenuItem
+      Caption = 'Help'
+      object About: TMenuItem
+        Caption = 'About'
+        OnClick = AboutClick
+      end
+    end
+  end
+end

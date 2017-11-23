@@ -1,0 +1,23 @@
+program GraphicEeditor;
+
+{$mode objfpc}{$H+}
+
+uses
+  {$IFDEF UNIX}{$IFDEF UseCThreads}
+  cthreads,
+  {$ENDIF}{$ENDIF}
+  Interfaces, // this includes the LCL widgetset
+  Forms, MainUnit, HelpAboutUnit, HelpHotKeys, uFigure, uLogik, uTool
+  { you can add units after this };
+
+{$R *.res}
+
+begin
+  RequireDerivedFormResource:=True;
+  Application.Initialize;
+  Application.CreateForm(TVeck_draw, Veck_draw);
+  Application.CreateForm(THelpAbout, HelpAbout);
+  Application.CreateForm(THotKeysSheet, HotKeysSheet);
+  Application.Run;
+end.
+
